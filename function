@@ -1,0 +1,6 @@
+there are built in functions like print(){print statement became function in python 3 however in python 2 it still was a statement.}, len(), input().
+In python we can define our own function.
+example:
+def hellopy():
+    print('the name python did not come from the name of the snake.')
+hellopy()

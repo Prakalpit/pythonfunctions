@@ -1,0 +1,23 @@
+The argument and parameters.
+in function
+
+def hellopy(variable):
+    print('the name '+ variable + ' did not come from the name of the snake.')
+hellopy('Python')
+
+ variable is the parameter that contains the argument Python.
+
+local variables,
+the parameters in a function such as the one above(variable), are called local variable. they will fade once the function ends.
+you can't use the local variable outside the function.
+
+global variables,
+the variable outside the function are global variables. like:
+
+spam=21
+def hellopy(variable):
+    print('the name '+ variable + ' did not come from the name of the snake.')
+    print(spam)
+hellopy('Python')
+
+here 'spam' is a global variable and can be used both inside and outside the function.
